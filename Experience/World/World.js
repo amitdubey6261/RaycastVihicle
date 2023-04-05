@@ -57,28 +57,28 @@ export default class World {
         this.wheel1 = new CANNON.Body({
             mass: 1,
             //shape: new CANNON.Sphere(1),
-            shape : carBodyCylinder , 
+            shape : this.carBodyCylinder , 
             material: this.wheelMaterial,
             angularDamping: 0.4,
         })
         this.wheel2 = new CANNON.Body({
             mass: 1,
             //shape: new CANNON.Sphere(1),
-            shape : carBodyCylinder ,
+            shape : this.carBodyCylinder ,
             material: this.wheelMaterial,
             angularDamping: 0.4
         })
         this.wheel3 = new CANNON.Body({
             mass: 1,
             //shape: new CANNON.Sphere(1),
-            shape : carBodyCylinder ,
+            shape : this.carBodyCylinder ,
             material: this.wheelMaterial,
             angularDamping: 0.4
         })
         this.wheel4 = new CANNON.Body({
             mass: 1,
             //shape: new CANNON.Sphere(1),
-            shape : carBodyCylinder ,
+            shape : this.carBodyCylinder ,
             material: this.wheelMaterial,
             angularDamping: 0.4
         })
