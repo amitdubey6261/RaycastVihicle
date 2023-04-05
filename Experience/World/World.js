@@ -80,25 +80,25 @@ export default class World {
 
         this.vihicle.addWheel({
             body: this.wheel1,
-            position: new CANNON.Vec3(-2, 0, 20 / 2).vadd(new CANNON.Vec3(0,-1,0)),
+            position: new CANNON.Vec3(-2, 0, 10 / 2).vadd(new CANNON.Vec3(0,-1,0)),
             axis: new CANNON.Vec3(0, 0, 1),
             direction: new CANNON.Vec3(0, -1, 0)
         })
         this.vihicle.addWheel({
             body: this.wheel2,
-            position: new CANNON.Vec3(-2, 0, -20 / 2).vadd(new CANNON.Vec3(0,-1,0)),
+            position: new CANNON.Vec3(-2, 0, -10 / 2).vadd(new CANNON.Vec3(0,-1,0)),
             axis: new CANNON.Vec3(0, 0, -1),
             direction: new CANNON.Vec3(0, -1, 0)
         })
         this.vihicle.addWheel({
             body: this.wheel3,
-            position: new CANNON.Vec3(2, 0, 20 / 2).vadd(new CANNON.Vec3(0,-1,0)),
+            position: new CANNON.Vec3(2, 0, 10 / 2).vadd(new CANNON.Vec3(0,-1,0)),
             axis: new CANNON.Vec3(0, 0, 1),
             direction: new CANNON.Vec3(0, -1, 0)
         })
         this.vihicle.addWheel({
             body: this.wheel4,
-            position: new CANNON.Vec3(2, 0, -20 / 2).vadd(new CANNON.Vec3(0,-1,0)),
+            position: new CANNON.Vec3(2, 0, -10 / 2).vadd(new CANNON.Vec3(0,-1,0)),
             axis: new CANNON.Vec3(0, 0, 1),
             direction: new CANNON.Vec3(0, -1, 0)
         })
