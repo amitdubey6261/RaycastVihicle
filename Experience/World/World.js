@@ -53,27 +53,32 @@ export default class World {
     }
 
     createBall() {
+        this.carBodyCylinder = new CANNON.Cylinder(1 , 1 ,  0.4 , 50 );
         this.wheel1 = new CANNON.Body({
             mass: 1,
-            shape: new CANNON.Sphere(1),
+            //shape: new CANNON.Sphere(1),
+            shape : carBodyCylinder , 
             material: this.wheelMaterial,
             angularDamping: 0.4,
         })
         this.wheel2 = new CANNON.Body({
             mass: 1,
-            shape: new CANNON.Sphere(1),
+            //shape: new CANNON.Sphere(1),
+            shape : carBodyCylinder ,
             material: this.wheelMaterial,
             angularDamping: 0.4
         })
         this.wheel3 = new CANNON.Body({
             mass: 1,
-            shape: new CANNON.Sphere(1),
+            //shape: new CANNON.Sphere(1),
+            shape : carBodyCylinder ,
             material: this.wheelMaterial,
             angularDamping: 0.4
         })
         this.wheel4 = new CANNON.Body({
             mass: 1,
-            shape: new CANNON.Sphere(1),
+            //shape: new CANNON.Sphere(1),
+            shape : carBodyCylinder ,
             material: this.wheelMaterial,
             angularDamping: 0.4
         })
